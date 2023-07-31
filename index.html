@@ -14,99 +14,754 @@
   </head>
 
   <body>
-    <div class="header">
-      <a href="#" class="Home">Home</a>
-      <nav class="navbar-above">
-        <a href="#" class="anchor-above">Contact</a>
-        <a href="#" class="anchor-above">Contact</a>
-        <a href="#" class="anchor-above">Contact</a>
-        <a href="#" class="anchor-above">Contact</a>
-      </nav>
-    </div>
-    <div class="container cont-body">
-      <div class="row">
-        <div class="col">
-          <p>need help</p>
-          <p>numri</p>
+    <header class="container">
+      <div class="first-header py-4">
+        <a href="#" class="normal-link"
+          >FREE SHIPPING FOR ALL ORDERS <strong>$200</strong></a
+        >
+        <nav class="navbar-above">
+          <a href="#" class="normal-link px-2">MY ACCOUNT</a>
+          <a href="#" class="normal-link px-2">CART</a>
+          <a href="#" class="normal-link px-2">WISHLIST</a>
+          <a href="#" class="normal-link px-2">CHECKOUT</a>
+        </nav>
+      </div>
+      <div class="second-header">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-8">
+            <div class="d-flex gap-3">
+              <div class="need-help d-flex">
+                <img src="img/phone.svg" width="50" alt="phone-icon" />
+                <div>
+                  <strong>Need help?</strong>
+                  <p>+555 5555 555</p>
+                </div>
+              </div>
+              <div class="search-container">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search product ..."
+                />
+                <button type="submit" class="search-button">
+                  <img src="img/icons8-search-24.png" alt="Search Icon" />
+                </button>
+              </div>
+              <div class="social-icons">
+                <div class="icon-container px-2">
+                  <img
+                    src="img/heart-regular.svg"
+                    width="25"
+                    alt="Heart Icon"
+                  />
+                </div>
+                <!-- Shopping Cart Icon -->
+                <div class="icon-container px-2">
+                  <img
+                    src="img/bag-shopping-solid.svg"
+                    width="25"
+                    alt="Shopping Cart Icon"
+                  />
+                </div>
+                <!-- Price Display -->
+                <span class="card-price px-2">$54.6</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <div class="search-container">
-            <input
-              type="text"
-              class="search-input"
-              placeholder="Search product ..."
-            />
-            <button type="submit" class="search-button">
-              <img src="img/icons8-search-24.png" alt="Search Icon" />
-            </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="all-department">
+              <h5 class="all-department-text">All Department</h5>
+            </div>
           </div>
           <div class="col">
-            <span class="icon-container">
+            <nav>
+              <ul class="navbar">
+                <li class="category active">
+                  <a href="#">Home <span class="arrow-down">⌵</span></a>
+                </li>
+                <li class="category">
+                  <a href="#">Shop <span class="arrow-down">⌵</span></a>
+                </li>
+                <li class="category">
+                  <a href="#">Blog <span class="arrow-down">⌵</span></a>
+                </li>
+                <li class="category">
+                  <a href="#">Pages <span class="arrow-down">⌵</span></a>
+                </li>
+                <li class="category">
+                  <a href="#">Contact <span class="arrow-down">⌵</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-banner">
+        <div class="container">
+          <div class="d-flex gap-4">
+            <div class="banner-1">
+              <img src="https://picsum.photos/700/300" class="img-fluid" />
+            </div>
+            <div class="banner-2">
+              <img src="https://picsum.photos/700/300" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seksioni i services -->
+      <div class="services container my-5">
+        <div class="d-flex justify-content-between border border-1 py-5 px-3">
+          <div class="shipping d-flex gap-2 align-items-center">
+            <div class="shipping-icon">
+              <img src="/img/shipping-icon.svg" width="50" class="img-fluid" />
+            </div>
+            <div class="shipping-info">Free shipping</div>
+          </div>
+          <div class="money-back d-flex gap-2 align-items-center">
+            <div class="money-back-icon">
               <img
-                src="img/heart-regular.svg"
-                width="20px"
-                height="20px"
-                alt="Heart Icon"
+                src="/img/reload-icon.svg"
+                alt=""
+                width="50"
+                class="img-fluid"
               />
-              <span class="notification-number">3</span>
-            </span>
-            <!-- Shopping Cart Icon -->
-            <span class="icon-container">
+            </div>
+            <div class="money-back-info">Easy 30 days return</div>
+          </div>
+          <div class="secure d-flex gap-2 align-items-center">
+            <div class="secure-icon"></div>
+            <img
+              src="/img/credit-icon.svg"
+              width="50"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="secure-info">100% secure</div>
+          </div>
+          <div class="support d-flex gap-2 align-items-center">
+            <div class="support-icon">
               <img
-                src="img/bag-shopping-solid.svg"
-                width="20px"
-                height="20px"
-                alt="Shopping Cart Icon"
+                src="/img/suport-icon.svg"
+                width="50"
+                class="img-fluid"
+                alt=""
               />
-              <span class="notification-number">1</span>
-            </span>
-            <!-- Price Display -->
-            <span class="price">$54.6</span>
-          </div>
-          <!-- Heart Icon -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-2">
-          <div class="all-department">
-            <h5 class="all-department-text">All Department</h5>
+            </div>
+            <div class="support-info">24/7 Support</div>
           </div>
         </div>
-        <div class="col">
-          <nav>
-            <ul class="navbar">
-              <li class="category active">
-                <a href="#">Home <span class="arrow-down">⌵</span></a>
-              </li>
-              <li class="category">
-                <a href="#">Shop <span class="arrow-down">⌵</span></a>
-              </li>
-              <li class="category">
-                <a href="#">Blog <span class="arrow-down">⌵</span></a>
-              </li>
-              <li class="category">
-                <a href="#">Pages <span class="arrow-down">⌵</span></a>
-              </li>
-              <li class="category">
-                <a href="#">Contact <span class="arrow-down">⌵</span></a>
-              </li>
-            </ul>
-          </nav>
+      </div>
+
+      <!-- Seksioni i reklamave -->
+      <div class="ads container">
+        <div class="d-flex gap-4">
+          <div class="adds-1"></div>
+          <div class="adds-2"></div>
         </div>
       </div>
-      <div class="row big-image-center-cont">
-        <div class="col">
-          <div class="big-image-center-cont">
-            <H2>Wooden Table</H2>
-            <br />
-            <H2>Modern Furniture</H2>
-            <img src="/img/tablr.jpg" class="big-image-center" alt="" />
+
+      <!-- Deal of day section -->
+      <div class="deal-of-week container">
+        <h2 class="text-center mb-3">Deal of the week</h2>
+        <div class="separator mb-5"></div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Aliquet auctor semali</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span>Available: <strong>369</strong></span>
+                  <p>unit sold:<strong>56</strong></p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-valuenow="12"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar bg-warning" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Auctor gravida enimuctor</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p>
+                    <span>Available <strong>379</strong></span>
+                  </p>
+                  <p>Unit sold:<strong>121</strong></p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Bibben lorem coectetur</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p>
+                    <span>Available <strong>91</strong></span>
+                  </p>
+                  <p>Unit sold: <strong>8</strong></p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar bg-warning" style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <p>
+                    <span>Available <strong>369</strong></span>
+                  </p>
+                  <p>Unit sold: <strong>56</strong></p>
+                </div>
+
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar bg-warning" style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col">
-          <h1>test</h1>
+      </div>
+
+      <div class="furniture-and-decor container py-5">
+        <h2 class="text-center mb-3">Furniture & Decor</h2>
+        <div class="separator mb-5"></div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more cards here -->
         </div>
       </div>
-    </div>
+
+      <div class="home-and-accessoriess container">
+        <h2 class="text-center mb-3">Home & Accessories</h2>
+        <div class="separator mb-5"></div>
+
+        <div class="row">
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card mb-3">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/200/100"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="price">$70.00 <small>$80.00</small></div>
+                <div class="title">
+                  <p>Lorem ipsum loreal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more cards here -->
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="d-flex gap-4">
+          <div class="banner-1">
+            <img src="https://picsum.photos/700/300" class="img-fluid" alt="" />
+          </div>
+          <div class="banner-2">
+            <img src="https://picsum.photos/700/300" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <section class="bottom-products mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="category-title text-center m-auto mb-5">
+                <h2>Featured</h2>
+                <div class="separator"></div>
+              </div>
+              <div class="product-list">
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="category-title text-center mb-5">
+                <h2>New Arrivals</h2>
+                <div class="separator"></div>
+              </div>
+              <div class="product-list">
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="category-title text-center mb-5">
+                <h2>Best Seller</h2>
+                <div class="separator"></div>
+              </div>
+              <div class="product-list">
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-2">
+                  <div class="d-flex gap-2">
+                    <img src="https://picsum.photos/200/200" alt="" />
+                    <div class="info py-5">
+                      <div class="price">$150</div>
+                      <p><strong>Lorem ipsum</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="d-flex justify-content-between bg-warning">
+        <div class="container">
+          <div class="first-header py-4">
+            <strong>$SUBSCRIBE NEWSLETTER AND GET DISCOUNT</strong>
+
+            <div class="search-container">
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Enter email address ..."
+              />
+              <button type="submit" class="search-button">
+                <img src="img/icons8-search-24.png" alt="Search Icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Contact Us
+                </h6>
+
+                <p>
+                  <img
+                    src="/img/home-icon.svg"
+                    width="20"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >45 Grand Central NY New York 1017 United State USA</a
+                  >
+                </p>
+                <p>
+                  <img
+                    src="/img/email-icon.svg"
+                    width="20"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Email: info@yourdomain.com</a
+                  >
+                </p>
+                <p>
+                  <img
+                    src="img/phone-icon.svg"
+                    width="20"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Phone: (+321)543 123 321</a
+                  >
+                </p>
+                <p>
+                  <img
+                    src="img/fax-icon.svg"
+                    width="20"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Fax: (+321)543 123 321</a
+                  >
+                </p>
+
+                <p>
+                  <img
+                    src="img/calendar-icon.svg"
+                    width="20"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Mon-Sat 9:00pm - 5:00pm
+                    <p>Sun: Closed</p>
+                  </a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Information</h6>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Contact</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >About Us</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Privacy Policy</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Customer Service</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Frequently Questions</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Delivery Information</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">My Account</h6>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none">Cart</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Wishlist</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Checkout</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none">FAQ</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >My Account</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset text-decoration-none"
+                    >Private Policy</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Latest Tweets</h6>
+                <p>
+                  Packed with idea, information and a few pictures of cute
+                  cats,it can be hard to stand out in a sea of graphics on
+                  Pinterest. Which is why we're here to help with these awesome
+                  templates Sep 20 reply retweet favorite 1 year ago
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+      </footer>
+      <!-- Footer -->
+    </main>
   </body>
 </html>

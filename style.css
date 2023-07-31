@@ -1,39 +1,25 @@
-* {
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 20px 100px;
-  background-color: rgb(206, 224, 219);
-  display: flex;
-  justify-content: space-between;
-  z-index: 100%;
-}
-.Home {
+.home {
   font-size: 25px;
   color: black;
   text-decoration: none;
 }
 
-.navbar-above,
-.anchor-above {
-  font-size: 15px;
-  color: black;
-  text-decoration: none;
-  margin-left: 30px;
+.first-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.cont-body {
-  margin-top: 100px;
+.normal-link {
+  text-decoration: none;
+  color: black;
 }
 
 .search-container {
   display: flex;
   align-items: center;
-  width: 300px;
-  margin: 20px auto;
+  width: 500px;
   border: 2px solid orange;
   border-radius: 20px;
   overflow: hidden;
@@ -60,9 +46,31 @@
   height: 20px;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f1f1f1;
+}
+
+.main-banner {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.price {
+  color: red;
+}
+.price small {
+  color: gray;
 }
 
 nav {
@@ -116,11 +124,19 @@ nav {
   font-weight: bold; /* Added font-weight rule */
 }
 
-.notification-number {
-  background-color: orange;
-}
-
 .big-image-center-cont {
   margin-top: 100px;
   text-align: center;
+}
+
+.second-image {
+  display: flex;
+  margin-right: auto;
+}
+
+.separator {
+  width: 50px;
+  height: 5px;
+  background: orange;
+  margin: 0 auto;
 }
