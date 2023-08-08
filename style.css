@@ -140,3 +140,14 @@ nav {
   background: orange;
   margin: 0 auto;
 }
+
+.icon-badge {
+  background: orange;
+  width: 25px;
+  position: absolute;
+  bottom: -12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  right: -10px;
+}
